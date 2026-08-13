@@ -1,0 +1,14 @@
+Plaintext
+# Core & Asincronía
+httpx>=0.27.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# Fase 2: Visión con Gemini / IA
+google-genai>=0.1.0
+
+# Cotización en tiempo real (Plata / Metales)
+yfinance>=0.2.38
+
+# Bot de Telegram / Interfaz On-Demand
+python-telegram-bot>=21.0

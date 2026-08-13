@@ -1,0 +1,28 @@
+[project]
+name = "wpop-arbitrage-bot"
+version = "0.1.0"
+description = "Agente de extracción y arbitraje numismático para Wallapop"
+requires-python = ">=3.10"
+dependencies = [
+    # Core & Browser Automation
+    "playwright>=1.42.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.2.0",
+    # Visión con Gemini / IA
+    # Cotización en tiempo real (Plata / Metales)
+    "yfinance>=0.2.38",
+    # Bot de Telegram / Interfaz On-Demand
+    "python-telegram-bot>=21.0",
+    "google-generativeai>=0.8.6",
+    "google-genai>=2.17.0",
+    "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+]
+
+[tool.uv]
+package = false
